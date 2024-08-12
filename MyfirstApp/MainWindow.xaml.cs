@@ -21,7 +21,29 @@ namespace MyfirstApp
             InitializeComponent();
         }
 
-    /*    private void textEmail_MouseDown(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtEmail.Text) && !String.IsNullOrEmpty(txtPassword.Password))
+            {
+                MessageBox.Show("Successfully Signed In");
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                this.DragMove();
+            }
+
+        }
+
+        private void textEmail_MouseDown(object sender, RoutedEventArgs e)
         {
             txtEmail.Focus();
         }
@@ -33,7 +55,8 @@ namespace MyfirstApp
                 textEmail.Visibility = Visibility.Collapsed;
 
             }
-            else {
+            else
+            {
 
                 textEmail.Visibility = Visibility.Visible;
 
@@ -63,10 +86,11 @@ namespace MyfirstApp
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Image_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            Application.Current.Shutdown();
 
-        }*/
+        }
     }
 }
 

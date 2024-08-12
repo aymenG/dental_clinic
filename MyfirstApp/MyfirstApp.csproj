@@ -8,4 +8,42 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\close.png" />
+    <None Remove="images\dentdoc-logo.PNG" />
+    <None Remove="images\email.png" />
+    <None Remove="images\facebook.png" />
+    <None Remove="images\gmail.png" />
+    <None Remove="images\instagram.png" />
+    <None Remove="images\linkedin.png" />
+    <None Remove="images\password.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\dentdoc-logo.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\email.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\gmail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\facebook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\instagram.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\linkedin.png" />
+    <Resource Include="images\password.png" />
+  </ItemGroup>
+
 </Project>
