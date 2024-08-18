@@ -16,6 +16,7 @@
     <None Remove="images\gmail.png" />
     <None Remove="images\instagram.png" />
     <None Remove="images\linkedin.png" />
+    <None Remove="images\logo_dentdoc.png" />
     <None Remove="images\password.png" />
   </ItemGroup>
 
@@ -43,6 +44,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="images\linkedin.png" />
+    <Resource Include="images\logo_dentdoc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\password.png" />
   </ItemGroup>
 
