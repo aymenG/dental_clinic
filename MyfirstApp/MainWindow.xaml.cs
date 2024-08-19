@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using DentalClinic;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -9,7 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MyfirstApp
+namespace DentalClinic
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -28,10 +29,16 @@ namespace MyfirstApp
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void LoginBtn(object sender, RoutedEventArgs e)
         {
+            Dashboard dashboard = new();
+            dashboard.Show();
+
+            
 
         }
+
+       
     }
 }
 
