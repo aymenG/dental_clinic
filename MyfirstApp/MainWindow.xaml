@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Height="500"
         Width="800"
-        MinWidth="600"
-        MinHeight="400"
+        MinWidth="720"
+        MinHeight="480"
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
         WindowStartupLocation="CenterScreen"
@@ -39,7 +39,7 @@
                 </Canvas>
 
                 <StackPanel VerticalAlignment="Center">
-                    <Image Source="images\logo_dentdoc.png" Grid.Column="1" Panel.ZIndex="1" MouseUp="Image_MouseUp" Style="{StaticResource imgLogo}" Height="220"/>
+                    <Image Source="images\logo_dentdoc.png"  Style="{StaticResource imgLogo}" Height="220"/>
                     <TextBlock Text="Dental clinic" Style="{StaticResource titleText}"/>
                     <TextBlock Text="Dental clinic Management System" Style="{StaticResource normalText}" Opacity="0.8" Margin="20 30"/>
                     <StackPanel Orientation="Horizontal" Margin="0 20" HorizontalAlignment="Center">
