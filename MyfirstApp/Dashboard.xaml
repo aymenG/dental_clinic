@@ -5,66 +5,11 @@
             Title="DentDoc" WindowState="Maximized"
             Background="#f0f4f8">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        <DataGridRow>
+            
+        </DataGridRow>
 
-        <!-- Sidebar -->
-        <StackPanel Grid.Row="1" Background="#3498db" VerticalAlignment="Stretch" Margin="10 15 0 15" >
-            <TextBlock Text="Dental Clinic" Foreground="White" FontSize="24" FontWeight="Bold" Margin="10"/>
-            <Button Content="Dashboard" Margin="10" Background="#ffffff" Foreground="Black" Click="Button_Click"/>
-            <Button Content="Appointments" Margin="10" Background="White" Foreground="Black" />
-            <Button Content="Patients" Margin="10" Background="White" Foreground="Black"/>
-            <Button Content="Settings" Margin="10" Background="White" Foreground="Black"/>
-        </StackPanel>
 
-        <!-- Header -->
-        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" Background="#3498db" Height="60">
-            <TextBlock Text="Welcome to the Dental Clinic Dashboard" VerticalAlignment="Center" Foreground="White" FontSize="18" FontWeight="Bold" Margin="20"/>
-        </StackPanel>
-
-        <!-- Main Content Area -->
-        <Grid Grid.Row="1" Grid.Column="1" Margin="10">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <!-- Appointments Panel -->
-            <Border Grid.Row="0" Grid.Column="0" Margin="5" Background="White" CornerRadius="8" Padding="10">
-                <TextBlock Text="Today's Appointments" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
-                <!-- Add appointment details here -->
-            </Border>
-
-            <!-- Patient Details Panel -->
-            <Border Grid.Row="0" Grid.Column="1" Margin="5" Background="White" CornerRadius="8" Padding="10">
-                <TextBlock Text="Patient Details" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
-                <!-- Add patient information here -->
-            </Border>
-
-            <!-- Clinic Statistics Panel -->
-            <Border Grid.Row="1" Grid.ColumnSpan="2" Margin="5" Background="White" CornerRadius="8" Padding="10">
-                <TextBlock Text="Clinic Statistics" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
-                <!-- Add statistics here -->
-            </Border>
-
-            <!-- Additional Panels -->
-            <Border Grid.Row="2" Grid.Column="0" Margin="5" Background="White" CornerRadius="8" Padding="10">
-                <TextBlock Text="Panel 4" FontSize="16" FontWeight="Bold"/>
-            </Border>
-            <Border Grid.Row="2" Grid.Column="1" Margin="5" Background="White" CornerRadius="8" Padding="10">
-                <TextBlock Text="Panel 5" FontSize="16" FontWeight="Bold"/>
-            </Border>
-        </Grid>
+     
     </Grid>
 </Window>

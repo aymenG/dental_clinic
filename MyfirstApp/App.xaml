@@ -183,9 +183,8 @@
         <Style x:Key="imgClose" TargetType="Image">
             <Setter Property="Width" Value="30"/>
             <Setter Property="Height" Value="30"/>
-            <Setter Property="VerticalAlignment" Value="Top"/>
-            <Setter Property="HorizontalAlignment" Value="Right"/>
-            <Setter Property="Margin" Value="0 13 13 0"/>
+           
+       
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="RenderTransform">
@@ -199,9 +198,7 @@
         <Style x:Key="imgLogo" TargetType="Image">
             <Setter Property="Width" Value="300"/>
             <Setter Property="Height" Value="300"/>
-            <!--   <Setter Property="VerticalAlignment" Value="Top"/>  -->
-            <!--  <Setter Property="HorizontalAlignment" Value="Left"/> -->
-            <!-- <Setter Property="Margin" Value="13 13 13 13"/> -->
+          
             
         </Style>
 
