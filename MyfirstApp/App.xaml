@@ -198,8 +198,8 @@
         <Style x:Key="imgLogo" TargetType="Image">
             <Setter Property="Width" Value="300"/>
             <Setter Property="Height" Value="300"/>
-          
-            
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="left"/>
         </Style>
 
 

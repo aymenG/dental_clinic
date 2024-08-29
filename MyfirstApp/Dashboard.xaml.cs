@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace DentalClinic
 {
     /// <summary>
@@ -19,8 +20,9 @@ namespace DentalClinic
     /// </summary>
     public partial class Dashboard : Window
     {
-        public Dashboard()
+        public Dashboard(Window parentWindow)
         {
+            Owner = parentWindow;
             InitializeComponent();
         }
 
@@ -28,5 +30,15 @@ namespace DentalClinic
         {
 
         }
+        private void btnClose(object sender, MouseButtonEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void btnMinimize(object sender, MouseButtonEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
     }
 }
+

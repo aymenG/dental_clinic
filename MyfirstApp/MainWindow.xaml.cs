@@ -20,7 +20,7 @@ namespace DentalClinic
 
         private void LoginBtn(object sender, RoutedEventArgs e)
         {
-            Dashboard dashboard = new();
+            Dashboard dashboard = new(this);
             dashboard.Show();
 
 
